@@ -20,5 +20,6 @@ This website is designed using Django, HTML, CSS, Javascript and Python
     on a seperate page with full info.
 6. List of all helpline numbers, Hospitals name and laboratories name in each state.
 7. Basic information on corona, its prevention, precautions, etc
-8. Source of information is reliable.
+8. You can share the current data on mobile phones using whatsapp.
+9. Source of information is reliable.
 </pre>
