@@ -1,16 +1,16 @@
 from django.shortcuts import render
-import COVID19Py,requests,time
+import requests,time
 
-covid19 = COVID19Py.COVID19()
+# covid19 = COVID19Py.COVID19()
 
 def world(request):
-	locations = covid19.getLocations(rank_by='confirmed')
-	latest=covid19.getLatest()
-	params={
-		'world':locations,
-		'latest':latest,
-	}
-	return render(request,'world.html',params)
+# 	locations = covid19.getLocations(rank_by='confirmed')
+# 	latest=covid19.getLatest()
+# 	params={
+# 		'world':locations,
+# 		'latest':latest,
+# 	}
+ 	return render(request,'world.html')
 
 
 def india(request):

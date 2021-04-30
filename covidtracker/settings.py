@@ -1,8 +1,7 @@
 
 import os
-from decouple import config
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SECRET_KEY = config('SECRET')
+SECRET_KEY = ')(9v*@$6ir-a*i7=i_a^*9jh8_05jmi=h1q-t65hhp#xw-an(4'
 DEBUG,ALLOWED_HOSTS = True,['*']
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -41,7 +40,7 @@ DATABASES = {
     }
 }
 LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'Asia/Calcutta'
+TIME_ZONE = 'Asia/Kolkata'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True

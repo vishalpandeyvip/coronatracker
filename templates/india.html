@@ -10,7 +10,10 @@
 	<div class="case_in_india"> Recovered <p style="color:green;font-size: 1.5em;">{{indian_recovered}}</p></div>
 	<div class="case_in_india" style="margin-right: 0px;" > Deaths <p style="color:red;font-size: 1.5em;">{{indian_deaths}}</p></div>
 	<div class="case_in_india" style="margin-right: 0px;" >
-		<a style="font-size: 1.5em;float:right;text-decoration: none;"href="whatsapp://send?text=There are total {{indian_confirmed}} cases in India in which {{indian_recovered}} people have recovered and {{indian_deaths}} have died. I request you to stay at home and follow government guidelines." data-action="share/whatsapp/share" onClick="javascript:window.open(this.href, '','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share on whatsapp"><i style="color:green;"class="fab fa-whatsapp"></i> Share </a>
+		<a class="d-block d-sm-block d-md-block d-lg-none" style="text-decoration:none;" href="whatsapp://send?text=There are total {{indian_confirmed}} cases in India in which {{indian_recovered}} people have recovered and {{indian_deaths}} have died.I request you to stay at home and follow government guidelines." data-action="share/whatsapp/share" onClick="javascript:window.open(this.href,'','menubar=no,toolbar=no, resizable=yes, scrollbars=yes, height=300,width=600');return false;" target="_blank" title="Share on whatsapp">
+	    <i style="color:green;"class="fab fa-whatsapp hidden"></i>
+	     	Share 
+	 	</a>
 	</div>
 </div>
 </div>
@@ -54,15 +57,8 @@
 		<div class="col-lg-6 col-md-12 col-sm-12">
 			<div class="flourish-embed flourish-map" style="width:100%;border:0px;" data-src="visualisation/2019140" 
 		 	data-url="https://flo.uri.sh/visualisation/2019140/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-			 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">While measuring the impact of coronavirus pandemic it has been seen that there are 7.3 
-			 <a href="https://twitter.com/hashtag/COVID19?src=hash&amp;ref_src=twsrc%5Etfw">#COVID19</a> cases per Lakh population in India which is 
-			 comparatively much less than other countries. It is because of bold decision taken by PM 
-			 <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Etfw">@narendramodi</a> for immediate lockdown. 
-			 <a href="https://t.co/aNSgMHIXom">pic.twitter.com/aNSgMHIXom</a></p>&mdash; Ravi Shankar Prasad (@rsprasad) 
-			 <a href="https://twitter.com/rsprasad/status/1264905497842343936?ref_src=twsrc%5Etfw">
-			 May 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-			 </script> 
-			
-	</div>
+	    </div>
 </div>
+</div>
+
 {% endblock %}
